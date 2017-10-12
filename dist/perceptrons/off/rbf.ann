@@ -1,0 +1,3 @@
+class=RbfAdjustableNetwork
+#PARAMS
+rbf_num=5

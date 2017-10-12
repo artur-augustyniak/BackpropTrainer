@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definicja Perceptronu. Widoczne są wszystkie dostępne opcje.
+% Backprop Trainer wykorzysta ostatnią definicję klasy znalezioną w pliku .ann .
+% W tym przypadku będzie to SinePerceptron
+% Następnie konstruktor już konkretnej subklasy będzie szukał poniżej znacznika:
+%
+%  #PARAMS
+%
+% parametrów które są dla niego niezbędne.
+%
+% Dostępne definicje Sieci Neuronowych
+% class=AdjustablePerceptron
+% class=BicentralPerceptron
+% class=CbpPerceptron
+% class=GaussianPerceptron
+% class=MadalineNetwork
+% class=RampPerceptron
+% class=RbfAdjustableNetwork
+% class=SinePerceptron
+% class=StepLikePerceptron
+% class=TanhPerceptron
+% class=TrapezoidPerceptron
+% class=VarryActivationPerceptron
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+class=TanhPerceptron
+class=SinePerceptron
+class=CbpPerceptron
+%
+% Dostępne parametry i ich typy
+#PARAMS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% UWAGA!!!
+% ustawienie RANDOM nadpisuje wszelkie inne parametry numeryczne i randomizuje je
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% AdjustablePerceptron; TanhPerceptron
+% Double
+beta=0.345
+%
+% BicentralPerceptron
+% Double
+slope=0.3
+slope_prim=0.003
+bias=1.3
+%
+% RbfAdjustableNetwork
+% Integer
+rbf_num=5
+%
+% VarryActivationPerceptron
+% String - dostępne opcje: LINEAR, RAMP, STEP, SIGMOID, TANH, GAUSSIAN, TRAPEZOID, SGN, SIN, LOG;
+transfer=TANH
+% String - dostępne opcje: WEIGHT_SUM_SQ, WEIGHT_PRODUCT,MIN, MAX, INTENSITY, MINKOVSKY_1, MINKOVSKY_2, MINKOVSKY_INF
+activation=WEIGHT_SUM_SQ

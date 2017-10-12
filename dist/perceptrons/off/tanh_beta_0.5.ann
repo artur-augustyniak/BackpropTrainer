@@ -1,0 +1,4 @@
+class=TanhPerceptron
+%
+#PARAMS
+beta=0.5

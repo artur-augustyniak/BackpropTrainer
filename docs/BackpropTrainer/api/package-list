@@ -1,0 +1,9 @@
+pl.aaugustyniak.backproptrainer
+pl.aaugustyniak.backproptrainer.arch
+pl.aaugustyniak.backproptrainer.cli
+pl.aaugustyniak.backproptrainer.config
+pl.aaugustyniak.backproptrainer.exceptions
+pl.aaugustyniak.backproptrainer.factories
+pl.aaugustyniak.backproptrainer.jobs
+pl.aaugustyniak.backproptrainer.model
+pl.aaugustyniak.backproptrainer.model.entities

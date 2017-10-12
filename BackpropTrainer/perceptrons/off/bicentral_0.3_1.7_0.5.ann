@@ -1,0 +1,5 @@
+class=BicentralPerceptron
+#PARAMS
+slope=0.3
+slope_prim=1.7
+bias=0.5

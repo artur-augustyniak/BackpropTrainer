@@ -1,0 +1,4 @@
+class=AdjustablePerceptron
+%
+#PARAMS
+beta=0.1

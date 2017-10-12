@@ -1,0 +1,6 @@
+class=VarryActivationPerceptron
+#PARAMS
+% String - dostępne opcje: LINEAR, RAMP, STEP, SIGMOID, TANH, GAUSSIAN, TRAPEZOID, SGN, SIN, LOG;
+transfer=SIGMOID
+% String - dostępne opcje: WEIGHT_SUM_SQ, WEIGHT_PRODUCT,MIN, MAX, INTENSITY, MINKOVSKY_1, MINKOVSKY_2, MINKOVSKY_INF
+activation=INTENSITY
